@@ -48,3 +48,5 @@ const LIST = () => {
 }
 
 export default LIST;
+
+// npm i uuid
