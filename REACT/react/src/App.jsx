@@ -10,6 +10,7 @@ import STATE from './component/STATE/STATE';
 import CONDITIONAL_RENDERING from './component/CONDITIONAL-RENDERING/CONDITIONAL_RENDERING';
 import ON_CHANGE from './component/EVENT-HANDLER/ON_CHANGE';
 import EVENT_HANDLER_BINDING from './component/EVENT-HANDLER-BINDING/EVENT_HANDLER_BINDING';
+import USE_STATE from './component/USE-STATE-HOOK/USE_STATE';
 
 function App() {
 
@@ -22,8 +23,9 @@ function App() {
       <BOOTSTRAP />
       <STATE />
       <CONDITIONAL_RENDERING />
-      <ON_CHANGE /> */}
-      <EVENT_HANDLER_BINDING />
+      <ON_CHANGE />
+      <EVENT_HANDLER_BINDING /> */}
+      <USE_STATE />
     </div>
   )
 }
