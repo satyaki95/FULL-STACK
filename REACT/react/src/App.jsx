@@ -7,6 +7,7 @@ import CLASS from './component/CLASS-COMPONENT/CLASS';
 import ICON from './component/REACT-ICONS/ICON';
 import BOOTSTRAP from './component/BOOTSTRAP/BOOTSTRAP';
 import STATE from './component/STATE/STATE';
+import CONDITIONAL_RENDERING from './component/CONDITIONAL-RENDERING/CONDITIONAL_RENDERING';
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
       <NESTED />
       <CLASS />
       <ICON />
-      <BOOTSTRAP /> */}
-      <STATE />
+      <BOOTSTRAP />
+      <STATE /> */}
+      <CONDITIONAL_RENDERING />
     </div>
   )
 }
