@@ -8,6 +8,7 @@ import ICON from './component/REACT-ICONS/ICON';
 import BOOTSTRAP from './component/BOOTSTRAP/BOOTSTRAP';
 import STATE from './component/STATE/STATE';
 import CONDITIONAL_RENDERING from './component/CONDITIONAL-RENDERING/CONDITIONAL_RENDERING';
+import ON_CHANGE from './component/EVENT-HANDLER/ON_CHANGE';
 
 function App() {
 
@@ -18,8 +19,9 @@ function App() {
       <CLASS />
       <ICON />
       <BOOTSTRAP />
-      <STATE /> */}
-      <CONDITIONAL_RENDERING />
+      <STATE />
+      <CONDITIONAL_RENDERING /> */}
+      <ON_CHANGE />
     </div>
   )
 }
