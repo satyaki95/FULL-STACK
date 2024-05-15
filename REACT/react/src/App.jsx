@@ -13,6 +13,7 @@ import EVENT_HANDLER_BINDING from './component/EVENT-HANDLER-BINDING/EVENT_HANDL
 import USE_STATE from './component/USE-STATE-HOOK/USE_STATE';
 import UPDATE from './component/UPDATE-STATE-PREVIOUS-STATE/UPDATE';
 import BUBBLING from './component/EVENT-BUBBLING/BUBBLING';
+import FORM from './component/CONTROLLED-COMPONENT/CONTROLLED';
 
 function App() {
 
@@ -28,8 +29,9 @@ function App() {
       <ON_CHANGE />
       <EVENT_HANDLER_BINDING />
       <USE_STATE />
-      <UPDATE /> */}
-      <BUBBLING />
+      <UPDATE />
+      <BUBBLING /> */}
+      <FORM />
     </div>
   )
 }
