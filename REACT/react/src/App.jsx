@@ -9,6 +9,7 @@ import BOOTSTRAP from './component/BOOTSTRAP/BOOTSTRAP';
 import STATE from './component/STATE/STATE';
 import CONDITIONAL_RENDERING from './component/CONDITIONAL-RENDERING/CONDITIONAL_RENDERING';
 import ON_CHANGE from './component/EVENT-HANDLER/ON_CHANGE';
+import EVENT_HANDLER_BINDING from './component/EVENT-HANDLER-BINDING/EVENT_HANDLER_BINDING';
 
 function App() {
 
@@ -20,8 +21,9 @@ function App() {
       <ICON />
       <BOOTSTRAP />
       <STATE />
-      <CONDITIONAL_RENDERING /> */}
-      <ON_CHANGE />
+      <CONDITIONAL_RENDERING />
+      <ON_CHANGE /> */}
+      <EVENT_HANDLER_BINDING />
     </div>
   )
 }
