@@ -16,7 +16,12 @@ const CONTROLLED = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, password); // from useState
+    let userInfo = {
+        name,
+        email,  // if key and value is same
+        password
+    }
+    console.log(userInfo); // from useState
   };
   return (
     <div>
