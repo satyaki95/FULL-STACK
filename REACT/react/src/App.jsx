@@ -15,6 +15,7 @@ import UPDATE from './component/UPDATE-STATE-PREVIOUS-STATE/UPDATE';
 import BUBBLING from './component/EVENT-BUBBLING/BUBBLING';
 import FORM from './component/CONTROLLED-COMPONENT/CONTROLLED';
 import OBJECT from './component/USE-STATE-WITH-OBJECT/OBJECT';
+import PARENT from './component/CHILD-TO-PARENT-COMPONENT/PARENT';
 
 function App() {
 
@@ -32,8 +33,9 @@ function App() {
       <USE_STATE />
       <UPDATE />
       <BUBBLING />
-      <FORM /> */}
-      <OBJECT />
+      <FORM />
+      <OBJECT /> */}
+      <PARENT />
     </div>
   )
 }
