@@ -16,6 +16,7 @@ import BUBBLING from './component/EVENT-BUBBLING/BUBBLING';
 import FORM from './component/CONTROLLED-COMPONENT/CONTROLLED';
 import OBJECT from './component/USE-STATE-WITH-OBJECT/OBJECT';
 import PARENT from './component/CHILD-TO-PARENT-COMPONENT/PARENT';
+import STATE_PARENT from './component/STATE-LIFTING/STATE_PARENT';
 
 function App() {
 
@@ -34,8 +35,9 @@ function App() {
       <UPDATE />
       <BUBBLING />
       <FORM />
-      <OBJECT /> */}
-      <PARENT />
+      <OBJECT />
+      <PARENT /> */}
+      <STATE_PARENT />
     </div>
   )
 }
