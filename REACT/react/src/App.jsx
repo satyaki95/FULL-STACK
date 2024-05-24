@@ -17,27 +17,29 @@ import FORM from './component/CONTROLLED-COMPONENT/CONTROLLED';
 import OBJECT from './component/USE-STATE-WITH-OBJECT/OBJECT';
 import PARENT from './component/CHILD-TO-PARENT-COMPONENT/PARENT';
 import STATE_PARENT from './component/STATE-LIFTING/STATE_PARENT';
+import FORMIK from './component/FORMIK-PACKAGE/FORMIK';
 
 function App() {
 
   return (
     <div>
-      {/* <UNIQUE />
-      <NESTED />
-      <CLASS />
-      <ICON />
-      <BOOTSTRAP />
-      <STATE />
-      <CONDITIONAL_RENDERING />
-      <ON_CHANGE />
-      <EVENT_HANDLER_BINDING />
-      <USE_STATE />
-      <UPDATE />
-      <BUBBLING />
-      <FORM />
-      <OBJECT />
-      <PARENT /> */}
-      <STATE_PARENT />
+      {/* <UNIQUE /> */}
+      {/* <NESTED /> */}
+      {/* <CLASS /> */}
+      {/* <ICON /> */}
+      {/* <BOOTSTRAP /> */}
+      {/* <STATE /> */}
+      {/* <CONDITIONAL_RENDERING /> */}
+      {/* <ON_CHANGE /> */}
+      {/* <EVENT_HANDLER_BINDING /> */}
+      {/* <USE_STATE /> */}
+      {/* <UPDATE /> */}
+      {/* <BUBBLING /> */}
+      {/* <FORM /> */}
+      {/* <OBJECT /> */}
+      {/* <PARENT /> */}
+      {/* <STATE_PARENT /> */}
+      <FORMIK />
     </div>
   )
 }
