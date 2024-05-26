@@ -1,0 +1,13 @@
+{
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "editor.selectionBackground": "#06383d"
+    },
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.fontSize": 20,
+    "editor.fontFamily": "'Edu NSW ACT Foundation','Kalam','Cascadia Code','Fira Code',Consolas, 'Courier New', monospace"
+}
