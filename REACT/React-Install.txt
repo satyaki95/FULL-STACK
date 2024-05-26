@@ -7,3 +7,4 @@ Select a variant - JavaScript
 cd vite-project2
   npm install
   npm run dev
+  
