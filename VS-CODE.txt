@@ -9,5 +9,5 @@
     "git.enableSmartCommit": true,
     "git.autofetch": true,
     "editor.fontSize": 20,
-    "editor.fontFamily": "'Edu NSW ACT Foundation','Kalam','Cascadia Code','Fira Code',Consolas, 'Courier New', monospace"
+    "editor.fontFamily": "'Cascadia Code','Fira Code',Consolas, 'Courier New', monospace"
 }
