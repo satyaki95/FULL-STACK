@@ -18,6 +18,7 @@ import OBJECT from './component/USE-STATE-WITH-OBJECT/OBJECT';
 import PARENT from './component/CHILD-TO-PARENT-COMPONENT/PARENT';
 import STATE_PARENT from './component/STATE-LIFTING/STATE_PARENT';
 import FORMIK from './component/FORMIK-PACKAGE/FORMIK';
+import VALIDATE from './component/VALIDATE-FORM/VALIDATE';
 
 function App() {
 
@@ -39,7 +40,8 @@ function App() {
       {/* <OBJECT /> */}
       {/* <PARENT /> */}
       {/* <STATE_PARENT /> */}
-      <FORMIK />
+      {/* <FORMIK /> */}
+      <VALIDATE />
     </div>
   )
 }
