@@ -9,5 +9,10 @@
     "git.enableSmartCommit": true,
     "git.autofetch": true,
     "editor.fontSize": 20,
-    "editor.fontFamily": "'Cascadia Code','Fira Code',Consolas, 'Courier New', monospace"
+    "editor.fontFamily": "'Fantasque Sans Mono-italic','Comic Shanns Regular','Cascadia Code',Consolas, 'Courier New', monospace",
+    "git.confirmSync": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
