@@ -20,6 +20,7 @@ import STATE_PARENT from './component/STATE-LIFTING/STATE_PARENT';
 import FORMIK from './component/FORMIK-PACKAGE/FORMIK';
 import VALIDATE from './component/VALIDATE-FORM/VALIDATE';
 import TOGGLE from './component/TOGGLE/TOGGLE';
+import FAQS from './component/FAQ/FAQS';
 
 function App() {
 
@@ -43,7 +44,8 @@ function App() {
       {/* <STATE_PARENT /> */}
       {/* <FORMIK /> */}
       {/* <VALIDATE /> */}
-      <TOGGLE />
+      {/* <TOGGLE /> */}
+      <FAQS />
     </div>
   )
 }
