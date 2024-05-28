@@ -22,6 +22,7 @@ import VALIDATE from './component/VALIDATE-FORM/VALIDATE';
 import TOGGLE from './component/TOGGLE/TOGGLE';
 import FAQS from './component/FAQ/FAQS';
 import USE_EFFECT from './component/USE-EFFECT/USE_EFFECT';
+import FETCH_DATA from './component/USE-EFFECT/FETCH_DATA';
 
 function App() {
 
@@ -47,7 +48,8 @@ function App() {
       {/* <VALIDATE /> */}
       {/* <TOGGLE /> */}
       {/* <FAQS /> */}
-      <USE_EFFECT />
+      {/* <USE_EFFECT /> */}
+      <FETCH_DATA />
     </div>
   )
 }
