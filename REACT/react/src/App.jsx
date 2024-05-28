@@ -21,6 +21,7 @@ import FORMIK from './component/FORMIK-PACKAGE/FORMIK';
 import VALIDATE from './component/VALIDATE-FORM/VALIDATE';
 import TOGGLE from './component/TOGGLE/TOGGLE';
 import FAQS from './component/FAQ/FAQS';
+import USE_EFFECT from './component/USE-EFFECT/USE_EFFECT';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
       {/* <VALIDATE /> */}
       {/* <TOGGLE /> */}
       {/* <FAQS /> */}
+      <USE_EFFECT />
     </div>
   )
 }
