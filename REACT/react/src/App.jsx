@@ -45,7 +45,7 @@ function App() {
       {/* <FORMIK /> */}
       {/* <VALIDATE /> */}
       {/* <TOGGLE /> */}
-      <FAQS />
+      {/* <FAQS /> */}
     </div>
   )
 }
