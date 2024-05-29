@@ -51,7 +51,7 @@ function App() {
       {/* <FAQS /> */}
       {/* <USE_EFFECT /> */}
       {/* <FETCH_DATA /> */}
-      <CUSTOM />
+      {/* <CUSTOM /> */}
     </div>
   )
 }
