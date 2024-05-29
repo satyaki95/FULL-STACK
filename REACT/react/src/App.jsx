@@ -23,6 +23,7 @@ import TOGGLE from './component/TOGGLE/TOGGLE';
 import FAQS from './component/FAQ/FAQS';
 import USE_EFFECT from './component/USE-EFFECT/USE_EFFECT';
 import FETCH_DATA from './component/USE-EFFECT/FETCH_DATA';
+import CUSTOM from './component/CUSTOM_HOOKS/CUSTOM';
 
 function App() {
 
@@ -49,7 +50,8 @@ function App() {
       {/* <TOGGLE /> */}
       {/* <FAQS /> */}
       {/* <USE_EFFECT /> */}
-      <FETCH_DATA />
+      {/* <FETCH_DATA /> */}
+      <CUSTOM />
     </div>
   )
 }
