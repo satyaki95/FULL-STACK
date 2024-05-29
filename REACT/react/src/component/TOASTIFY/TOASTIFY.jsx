@@ -7,6 +7,13 @@ const TOASTIFY = () => {
         toast.success("Add New User",{
             theme: "colored"
         });
+        toast.error("Add New User",{
+            theme: "colored"
+        });
+        toast.info("Add New User",{
+            theme: "colored"
+        });
+        
         
     }
   return (
