@@ -16,8 +16,8 @@ function App() {
     try {
       const response = await fetch(url);
       const data = await response.json();
-      setFilteredCountries(data);
       setCountries(data);
+      setFilteredCountries(data);
       setIsloading(false);
       setError(null);
     } catch (error) {
@@ -43,11 +43,11 @@ function App() {
     const newCountries = countries.filter((country) => {
       const countryName = country.name.common.toLowerCase();
       return countryName.startsWith(newValue);
-
     });
     setFilteredCountries(newCountries);
-  }
+  };
 
+  console.log(countries);
   return (
     <div>
       <h1>COUNTRY APP</h1>
