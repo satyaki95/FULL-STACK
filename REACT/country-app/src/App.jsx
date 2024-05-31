@@ -54,7 +54,7 @@ function App() {
       <SEARCH onSearch={handleSearch} />
       {isLoading && <h3>Loading...</h3>}
       {error && <h3>{error.message}</h3>}
-      {countries && (
+      {filteredCountries && (
         <COUNTRIES
           countries={filteredCountries}
           onRemoveCountry={handleRemoveCountry}
