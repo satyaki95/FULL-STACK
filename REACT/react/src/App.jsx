@@ -25,6 +25,7 @@ import USE_EFFECT from './component/USE-EFFECT/USE_EFFECT';
 import FETCH_DATA from './component/USE-EFFECT/FETCH_DATA';
 import CUSTOM from './component/CUSTOM_HOOKS/CUSTOM';
 import TOASTIFY from './component/TOASTIFY/TOASTIFY';
+import DYNAMIC from './component/DYNAMIC-STYLING/DYNAMIC';
 
 function App() {
 
@@ -53,7 +54,8 @@ function App() {
       {/* <USE_EFFECT /> */}
       {/* <FETCH_DATA /> */}
       {/* <CUSTOM /> */}
-      <TOASTIFY />
+      {/* <TOASTIFY /> */}
+      <DYNAMIC />
     </div>
   )
 }
