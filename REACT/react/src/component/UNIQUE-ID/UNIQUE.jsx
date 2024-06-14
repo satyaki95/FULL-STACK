@@ -1,6 +1,5 @@
-import React from 'react';
-import LIST from './LIST';
-
+import React from "react";
+import LIST from "./LIST";
 
 const UNIQUE = () => {
   return (
@@ -8,6 +7,6 @@ const UNIQUE = () => {
       <LIST />
     </div>
   );
-}
+};
 
 export default UNIQUE;
