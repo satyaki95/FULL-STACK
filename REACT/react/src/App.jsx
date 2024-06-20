@@ -27,6 +27,7 @@ import CUSTOM from './component/CUSTOM_HOOKS/CUSTOM';
 import TOASTIFY from './component/TOASTIFY/TOASTIFY';
 import DYNAMIC from './component/DYNAMIC-STYLING/DYNAMIC';
 import PROPE_TYPE from './component/PROPE-TYPE/PROPE_TYPE';
+import LIFE_CYCLE from './component/LIFE-CYCLE/LIFE_CYCLE';
 
 function App() {
 
@@ -57,7 +58,8 @@ function App() {
       {/* <CUSTOM /> */}
       {/* <TOASTIFY /> */}
       {/* <DYNAMIC /> */}
-      <PROPE_TYPE />
+      {/* <PROPE_TYPE /> */}
+      <LIFE_CYCLE />
     </div>
   )
 }
